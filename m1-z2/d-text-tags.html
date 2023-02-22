@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>text tags</title>
+    <style>
+      div {
+        border: 2px solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>dl</h2>
+      <!-- description list -->
+      <dl>
+        <!-- description title -->
+        <dt>word</dt>
+        <!-- description data -->
+        <dd>definition</dd>
+
+        <dt>JPEG</dt>
+        <dd>
+          Large files that do not require transparent backgrounds or animations.
+          This format is ideal for vivid photorealistic photographs as it can
+          contain millions of colors.
+        </dd>
+      </dl>
+    </div>
+
+    <div>
+      <h2>span</h2>
+      <p>
+        Lorem ipsum, <span class="red">dolor sit amet</span> consectetur
+        adipisicing elit. Aut, voluptate?
+      </p>
+    </div>
+
+    <div>
+      <!-- preformatted -->
+      <h2>pre</h2>
+      <!-- <p>tekst          kolejny kawałek tekstu
+
+        tekst tekst
+      </p> -->
+      <pre>
+1 linijka
+2 linijka
+
+3 linijka        i duży odstęp
+      </pre>
+    </div>
+
+    <div>
+      <!-- subscript -->
+      <!-- superscript -->
+      <h2>sup i sub</h2>
+      <p>H<sub>2</sub>O</p>
+      <p>m<sup>3</sup></p>
+      <p>
+        2<sup>2<sup>3</sup></sup
+        >= 64
+      </p>
+      <p>
+        normalny<sup
+          >w góre<sub>w dół<sup>znowu w góre</sup></sub></sup
+        >
+      </p>
+    </div>
+
+    <div>
+      <h2>time</h2>
+      <p>ISO 8601</p>
+      <p>
+        Najnowsze wiadomości z dnia
+        <time datetime="2023-12-14">14 grudnia 2023</time>
+      </p>
+      <p>
+        Najnowsze wiadomości z dnia
+        <time datetime="2023-01-03">3 stycznia 2023</time>
+      </p>
+      <p>
+        Spotkanie odbyło się dzisiaj o:
+        <time datetime="2023-02-22T11:30">11:30</time>
+      </p>
+      <!-- YYYY-MM-DDTHH:mm:ss.msmsms -->
+      <!-- 2023-02-12T23:59:02.999 -->
+    </div>
+    <div>
+      <h2>address</h2>
+      <address>
+        Kraków <br />
+        ul. Krupnicza 17 <br />
+        trzecie piętro biuro nr 124 <br />
+        <a href="tel:+48432423423423">Zadzwoń do nas</a>
+        <a href="mailto:test@test.pl">Napisz do nas</a>
+      </address>
+    </div>
+    <div>
+      <h2>strong i "b"</h2>
+      <p>Lorem ipsum <strong>dolor sit amet.</strong></p>
+      <p>Lorem ipsum <b>dolor sit amet.</b></p>
+    </div>
+    <div>
+      <h2>em i "i"</h2>
+      <!-- emphasis -->
+      <p>Lorem ipsum <em>dolor sit amet.</em></p>
+      <p>Lorem ipsum <i>dolor sit amet.</i></p>
+    </div>
+  </body>
+</html>

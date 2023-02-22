@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Train Schedule
+      </caption>
+      <!-- table row -->
+      <thead>
+        <tr>
+          <!-- table header -->
+          <th>Train number</th>
+          <th>Route</th>
+          <th>Travel time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- table data -->
+          <td>433</td>
+          <td>London - Paris</td>
+          <td>5 hours</td>
+        </tr>
+        <tr>
+          <!-- table data -->
+          <td>701</td>
+          <td>New York - Chicago</td>
+          <td>7 hours</td>
+        </tr>
+        <tr>
+          <!-- table data -->
+          <td>258</td>
+          <td>Oslo - Warsaw</td>
+          <td>4 hours</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">*travel times are only estimates</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
